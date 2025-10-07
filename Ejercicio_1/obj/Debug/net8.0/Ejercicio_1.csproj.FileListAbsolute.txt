@@ -1,0 +1,14 @@
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\bin\Debug\net8.0\Ejercicio_1.exe
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\bin\Debug\net8.0\Ejercicio_1.deps.json
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\bin\Debug\net8.0\Ejercicio_1.runtimeconfig.json
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\bin\Debug\net8.0\Ejercicio_1.dll
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\bin\Debug\net8.0\Ejercicio_1.pdb
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\obj\Debug\net8.0\Ejercicio_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\obj\Debug\net8.0\Ejercicio_1.AssemblyInfoInputs.cache
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\obj\Debug\net8.0\Ejercicio_1.AssemblyInfo.cs
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\obj\Debug\net8.0\Ejercicio_1.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\obj\Debug\net8.0\Ejercicio_1.dll
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\obj\Debug\net8.0\refint\Ejercicio_1.dll
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\obj\Debug\net8.0\Ejercicio_1.pdb
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\obj\Debug\net8.0\Ejercicio_1.genruntimeconfig.cache
+C:\Users\marco\source\repos\ASP_A1_2_Ejercicios_de_manejo_de_excepciones\Ejercicio_1\obj\Debug\net8.0\ref\Ejercicio_1.dll
