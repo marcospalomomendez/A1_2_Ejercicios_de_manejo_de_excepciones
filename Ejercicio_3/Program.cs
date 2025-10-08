@@ -7,60 +7,27 @@ class Program
         // Crear una lista de palabras
         List<string> palabras = new List<string> { "A", "B", "C", "D", "E" };
 
-        // Primer intento
-        Console.Write("Ingresa índice: ");
-        string entrada = Console.ReadLine();
 
-        // Validar que sea un número
-        if (int.TryParse(entrada, out int indice))
+        for (int i = 0; i < 3; i++)
         {
-            // Acceso seguro con ElementAtOrDefault
-            string palabra = palabras.ElementAtOrDefault(indice);
+            Console.Write("Ingresa índice: ");
+            string entrada = Console.ReadLine();
 
-            if (palabra != null)
-                Console.WriteLine($"Palabra: \"{palabra}\"");
+            // Validar que sea un número
+            if (int.TryParse(entrada, out int indice))
+            {
+                // Acceso seguro con ElementAtOrDefault
+                string palabra = palabras.ElementAtOrDefault(indice);
+
+                if (palabra != null)
+                    Console.WriteLine($"Palabra: \"{palabra}\"");
+                else
+                    Console.WriteLine("Índice fuera de rango");
+            }
             else
-                Console.WriteLine("Índice fuera de rango");
-        }
-        else
-        {
-            Console.WriteLine("Índice no válido");
-        }
-
-        // Segundo intento
-        Console.Write("Ingresa índice: ");
-        entrada = Console.ReadLine();
-
-        if (int.TryParse(entrada, out indice))
-        {
-            string palabra = palabras.ElementAtOrDefault(indice);
-
-            if (palabra != null)
-                Console.WriteLine($"Palabra: \"{palabra}\"");
-            else
-                Console.WriteLine("Índice fuera de rango");
-        }
-        else
-        {
-            Console.WriteLine("Índice no válido");
-        }
-
-        // Tercer intento
-        Console.Write("Ingresa índice: ");
-        entrada = Console.ReadLine();
-
-        if (int.TryParse(entrada, out indice))
-        {
-            string palabra = palabras.ElementAtOrDefault(indice);
-
-            if (palabra != null)
-                Console.WriteLine($"Palabra: \"{palabra}\"");
-            else
-                Console.WriteLine("Índice fuera de rango");
-        }
-        else
-        {
-            Console.WriteLine("Índice no válido");
+            {
+                Console.WriteLine("Índice no válido");
+            }
         }
     }
 }
