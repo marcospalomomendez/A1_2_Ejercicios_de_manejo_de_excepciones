@@ -15,76 +15,32 @@ class Program
 
         try
         {
-            // Primer caso
-            Console.Write("Ingresa producto: ");
-            string producto = Console.ReadLine();
 
-            Console.Write("Cantidad: ");
-            string cantidadTexto = Console.ReadLine();
-
-            if (productos.TryGetValue(producto, out double precio))
+            for (int i = 0; i < 3; i++)
             {
-                if (int.TryParse(cantidadTexto, out int cantidad))
+                // Segundo caso
+                Console.Write("\nIngresa producto: ");
+                string producto = Console.ReadLine();
+
+                if (productos.TryGetValue(producto, out double precio))
                 {
-                    double total = precio * cantidad;
-                    Console.WriteLine($"Total: {total}");
+                    Console.Write("Cantidad: ");
+                    string cantidadTexto = Console.ReadLine();
+
+                    if (int.TryParse(cantidadTexto, out int cantidad))
+                    {
+                        double total = precio * cantidad;
+                        Console.WriteLine($"Total: {total}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Cantidad no válida");
+                    }
                 }
                 else
                 {
-                    Console.WriteLine("Cantidad no válida");
+                    Console.WriteLine("Producto no encontrado");
                 }
-            }
-            else
-            {
-                Console.WriteLine("Producto no encontrado");
-            }
-
-            // Segundo caso
-            Console.Write("\nIngresa producto: ");
-            producto = Console.ReadLine();
-
-            if (productos.TryGetValue(producto, out precio))
-            {
-                Console.Write("Cantidad: ");
-                cantidadTexto = Console.ReadLine();
-
-                if (int.TryParse(cantidadTexto, out int cantidad))
-                {
-                    double total = precio * cantidad;
-                    Console.WriteLine($"Total: {total}");
-                }
-                else
-                {
-                    Console.WriteLine("Cantidad no válida");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Producto no encontrado");
-            }
-
-            // Tercer caso
-            Console.Write("\nIngresa producto: ");
-            producto = Console.ReadLine();
-
-            Console.Write("Cantidad: ");
-            cantidadTexto = Console.ReadLine();
-
-            if (productos.TryGetValue(producto, out precio))
-            {
-                if (int.TryParse(cantidadTexto, out int cantidad))
-                {
-                    double total = precio * cantidad;
-                    Console.WriteLine($"Total: {total}");
-                }
-                else
-                {
-                    Console.WriteLine("Cantidad no válida");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Producto no encontrado");
             }
         }
         catch (Exception ex)
